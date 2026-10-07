@@ -10,7 +10,7 @@ export default function Footer() {
           width: "100%",
         }}
       />
-      <h4 style={{ textAlign: "center", color: "navy" }}>© 2026 SAU.TON-BOY</h4>
+      <h4 style={{ textAlign: "center", color: "navy" }}>© 2026 SAU.PRONITA</h4>
     </>
   );
 }
