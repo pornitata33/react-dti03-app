@@ -1,17 +1,19 @@
-
-
-export default function Table() {
+import Header from "../components/Header";
+import Footer from "../components/Footer";
+export default function Tablet() {
   return (
-    <>
-            <h1 style={{ textAlign: "center", color: "brown" }}> Table Page</h1>
-            <p>
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iste sed veniam animi solut
-                a corporis sunt nostrum et magni. Iste adipisci dolor iure cumque quis laborum illo, i
-                psum aspernatur unde natus a perspiciatis molestiae, sed neque aliquam earum ex? Rerum
-                 earum consequatur dignissimos pariatur sapiente? Totam ea iusto officia voluptas eos?
-                 
-            </p>
-
-        </>
-  )
+    <div>
+      <Header />
+      <h1 style={{ textAlign: "center", color: "red" }}>Tablet Page</h1>
+      <p>
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Explicabo
+        adipisci suscipit ducimus quaerat vero. Laborum, sed ipsa? Quis et odit
+        esse magni reiciendis corrupti quam, aut nesciunt voluptate culpa, qui
+        consectetur, pariatur ad excepturi odio sapiente harum accusantium
+        perspiciatis deserunt minus sequi. Perferendis nesciunt fugit dolorum
+        quam alias quas veritatis.
+      </p>
+      <Footer />
+    </div>
+  );
 }
