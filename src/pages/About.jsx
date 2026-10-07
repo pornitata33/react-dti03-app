@@ -1,20 +1,22 @@
-import Header from "../components/Header.jsx";
-import Footer from "../components/Footer.jsx";
-
+import Header from "../components/Header";
+import Footer from "../components/Footer";
 export default function About() {
-    return (
-        <>
-            <Header />
-            <h1 style={{ textAlign: "center", color: "red" }}> About Page</h1>
-            <p>
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iste sed veniam animi solut
-                a corporis sunt nostrum et magni. Iste adipisci dolor iure cumque quis laborum illo, i
-                psum aspernatur unde natus a perspiciatis molestiae, sed neque aliquam earum ex? Rerum
-                earum consequatur dignissimos pariatur sapiente? Totam ea iusto officia voluptas eos?
-
-            </p>
-            <Footer />
-
-        </>
-    );
+  return (
+    <>
+      <Header />
+      <div>
+        {/* <h1>About Page</h1> */}
+        <h1 style={{ textAlign: "center", color: "magenta" }}>About Page</h1>
+        <p>
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dignissimos
+          ipsa ipsum tenetur quibusdam, debitis vitae cum consequuntur, maxime
+          ullam voluptas quia nam dolore laborum. Accusantium earum libero minus
+          laboriosam quae ea obcaecati labore facilis, eos facere ullam, eius,
+          itaque consequuntur nemo debitis! Sit amet perferendis, praesentium
+          obcaecati enim at hic?
+        </p>
+      </div>
+      <Footer />
+    </>
+  );
 }

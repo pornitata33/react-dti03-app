@@ -1,20 +1,19 @@
-import Header from "../components/Header.jsx";
-import Footer from "../components/Footer.jsx";
-
+import Header from "../components/Header";
+import Footer from "../components/Footer";
 export default function Home() {
-    return (
-        <>
-            <Header />
-            <h1 style={{ textAlign: "center", color: "gray" }}> Home Page</h1>
-            <p>
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iste sed veniam animi solut
-                a corporis sunt nostrum et magni. Iste adipisci dolor iure cumque quis laborum illo, i
-                psum aspernatur unde natus a perspiciatis molestiae, sed neque aliquam earum ex? Rerum
-                earum consequatur dignissimos pariatur sapiente? Totam ea iusto officia voluptas eos?
-
-            </p>
-            <Footer />
-
-        </>
-    )
+  return (
+    <>
+      <Header />
+      <h1 style={{ textAlign: "center", color: "purple" }}>Home Page</h1>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore totam
+        est quibusdam animi? Praesentium delectus, omnis doloremque accusamus
+        incidunt necessitatibus? Minima repellendus corporis inventore harum
+        error nobis numquam dolores dignissimos, incidunt molestias assumenda
+        nemo. Iusto laborum explicabo animi velit, doloremque maiores culpa
+        inventore in repellendus doloribus ab ex voluptate quae.
+      </p>
+      <Footer />
+    </>
+  );
 }

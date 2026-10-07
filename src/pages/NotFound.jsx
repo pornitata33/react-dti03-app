@@ -1,12 +1,13 @@
-import Header from "../components/Header.jsx";
-import Footer from "../components/Footer.jsx";
-
+import Header from "../components/Header";
+import Footer from "../components/Footer";
 export default function NotFound() {
   return (
     <>
       <Header />
-      <h1 style={{ textAlign: "center", color: "red" }}>404 - ไม่พบหน้านี้</h1>
-      <p>ขออภัย ไม่มีหน้าที่คุณค้นหา</p>
+      <h1 style={{ textAlign: "center", color: "orange" }}>NotFound</h1>
+      <p style={{ textAlign: "center" }}>
+        The page you are looking for does not exist.
+      </p>
       <Footer />
     </>
   );

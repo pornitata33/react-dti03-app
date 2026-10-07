@@ -1,21 +1,19 @@
-import Header from "../components/Header.jsx";
-import Footer from "../components/Footer.jsx";
-
-export default function
-  () {
+import Header from "../components/Header";
+import Footer from "../components/Footer";
+export default function Contact() {
   return (
     <>
       <Header />
-      <h1 style={{ textAlign: "center", color: "Blue" }}> Contact Page</h1>
+      <h1 style={{ textAlign: "center", color: "blue" }}>Contact Page</h1>
       <p>
-        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iste sed veniam animi solut
-        a corporis sunt nostrum et magni. Iste adipisci dolor iure cumque quis laborum illo, i
-        psum aspernatur unde natus a perspiciatis molestiae, sed neque aliquam earum ex? Rerum
-        earum consequatur dignissimos pariatur sapiente? Totam ea iusto officia voluptas eos?
-
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Explicabo
+        adipisci suscipit ducimus quaerat vero. Laborum, sed ipsa? Quis et odit
+        esse magni reiciendis corrupti quam, aut nesciunt voluptate culpa, qui
+        consectetur, pariatur ad excepturi odio sapiente harum accusantium
+        perspiciatis deserunt minus sequi. Perferendis nesciunt fugit dolorum
+        quam alias quas veritatis.
       </p>
       <Footer />
-
     </>
-  )
+  );
 }
